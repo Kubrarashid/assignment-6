@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 const Testimonials = () => {
   return (
-    <section id='Testimonial' className='h-full w-[1280px] bg-[#f7f7f7] py-[112px] flex flex-col gap-[80px] place-items-start'>
-    <div className='w-[560px] h-[109px] flex flex-col gap-[24px] ml-[64px]'>
+    <section id='Testimonial' className='h-full w-[full] bg-[#f7f7f7] py-[112px] flex flex-col gap-[80px] place-items-start'>
+    <div className='w-[full] h-[109px] flex flex-col gap-[24px] ml-[64px]'>
       <h2 className='leading-[57.6px] font-bold text-[48px]'>Customer testimonials</h2>
       <p className='leadin-[27px] text-[18px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
     </div>
-    <div className='xl:w-[1152px] w-[768px] h-[417.89px] flex flex-col gap-[48px] mx-[64px]'>
+    <div className='xl:w-[1152px] w-[full] h-[417.89px] flex flex-col gap-[48px] mx-[64px]'>
         <div className='h-[321.89px] flex flex-row gap-[32px]'>
             {/* card 1 */}
             <div className='h-[321.89px] w-[362.27pxpx] p-[32px] flex flex-col gap-[24px] border-solid border-black border-[1px]'>

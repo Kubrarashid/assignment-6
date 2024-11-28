@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <section id='Home' className='w-[1280px] h-[full] font-roboto'>
+    <section id='Home' className='w-[full] h-[full] font-roboto'>
     <div className='flex justify-between items-center md:flex-row flex-col'>
         <div className=' w-[640px] h-[300px] xl:my-[250px] lg:my-[170px] md:my-[14px] my-[50px] xl:pl-[80px] xl:pr-[60px] pl-[10px] flex flex-col gap-[24px]'>
           <div className='w-[500px] h-[2124px] flex flex-col gap-[24px]'>
@@ -21,7 +21,7 @@ const Hero = () => {
           </div>   
     </div>
 
-    <div className='h-[228px] bg-[#f7f7f7] flex justify-between'>
+    <div className='h-[228px] bg-[#f7f7f7] flex justify-between border-[2px] border-black'>
       <div className='w-[315px] h-[68px]'>
         <h5 className='font-bold text-[24px] leading-[33.6px] py-[80px] ml-[8px]'>Trusted by 200+ companies worldwide.</h5>
       </div>

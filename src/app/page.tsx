@@ -8,8 +8,6 @@ import Testimonials from '@/components/Testimonials'
 import Services from '@/components/Services'
 import Footer from '@/components/Footer'
 
-
-
 const page = () => {
   return (
     <div>

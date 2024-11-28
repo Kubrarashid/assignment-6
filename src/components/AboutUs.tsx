@@ -4,7 +4,7 @@ import { FaLinkedin,FaTwitter,FaDribbble } from "react-icons/fa"
 
 const AboutUs = () => {
   return (
-    <section id='AboutUs' className='w-[1280px] h-[895px] bg-[#f7f7f7] py-[112px] flex flex-col gap-[80px] items-center'>
+    <section id='AboutUs' className='w-[full] h-[895px] bg-[#f7f7f7] py-[112px] flex flex-col gap-[80px] items-center'>
     <div className='w-[768px] h-[109px] mx-[256px] flex flex-col gap-[16px] '>
       <h2 className='font-bold text-[48px] leading-[57.6px] text-center'>Our team</h2>
       <p className='text-center text-[18px] leading-27px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

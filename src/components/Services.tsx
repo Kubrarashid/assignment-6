@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Services = () => {
   return (
-    <section id='Services' className='w-[1280px] h-[1049px] font-roboto text-left py-[112px] flex flex-row flex-wrap justify-center items-center'>
+    <section id='Services' className='w-[full] h-[1049px] font-roboto text-left py-[112px] flex flex-row flex-wrap justify-center items-center'>
     <div className='md:w-[768px] w-[410px] h-[109px] hidden md:flex flex-col gap-[24px] mx-[256px]'>
       {/* sec 1 */}
       <h2 className='text-[48px] font-bold leading-[67.2px] h-[134px]'>Explore Courses By Category</h2>

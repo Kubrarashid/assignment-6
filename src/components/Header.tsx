@@ -6,8 +6,8 @@ import { FaInstagram } from "react-icons/fa6";
 
 const Headline = () => {
   return (
-    <header className='mx-auto p-2 bg-secondry border-2'>
-      <div className='container w-full flex flex-col sm:flex-row sm:justify-between items-center gap-4 border-[2px] bg-[#F7F7F7]'>
+    <header className='p-2 bg-secondry border-2 border-black'>
+      <div className='container w-[full] ml-[16px] flex flex-col sm:flex-row sm:justify-between items-center gap-2 border-[2px] bg-[#F7F7F7]'>
         
         <div className='flex flex-col sm:flex-row gap-2 sm:gap-4 text-sm sm:text-base items-start'>
             <p className='ml-[64px] text-black font-normal mt-3 mb-3'>
@@ -19,14 +19,14 @@ const Headline = () => {
             </p> 
         </div>
         
-        <div className='flex gap-4 justify-center sm:justify-end items-center mr-11'>
+        <div className='flex gap-4 justify-center sm:justify-end items-center mr-11 mb-[3px]'>
           <FaLinkedin size={21} className='text-black cursor-pointer mt-2.5' />
           <FaFacebookF size={21} className='text-black cursor-pointer mt-2.5' />
           <FaInstagram size={21} className='text-black cursor-pointer mt-2.5' />
           <FaTwitter size={21} className='text-black cursor-pointer mt-2.5' />
         </div>
       </div>
-        <div className='w-[1280px] h-[72px] py-[14px] border-[2px] mt-5 bg-[#F7F7F7]'>
+        <div className='w-[1280px] h-[72px] py-[14px] border-[2px] mt-5 ml-[16px] bg-[#F7F7F7]'>
           <div className='w-[1152px] h-[44px] mx-[64px] flex xl:flex-row flex-col items-center justify-between gap-2'>
             <div className='w-[130.6px] h-[41px] justify-center items-center'>
               <img src='/images/Ddsgnr Library.svg' />
